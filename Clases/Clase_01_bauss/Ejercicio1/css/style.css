@@ -1,0 +1,15 @@
+        body {
+            background: lightblue;
+            margin: 100px;
+        }
+
+        h4{
+            font-size: 50px;
+        }
+
+        div {
+            color: blue;
+        }
+        span{
+            color: blueviolet;
+        }
