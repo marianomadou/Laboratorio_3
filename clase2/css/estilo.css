@@ -1,0 +1,38 @@
+body {
+    background-color: aqua
+}
+
+h1 {
+    font-size: 50pt;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.azul {
+    font-size: 8pt;
+    background-color: blue;
+}
+
+p>span {
+    /*para lo hijos*/
+    color: blueviolet;
+}
+
+p span {
+    /*para lo hijos*/
+    color: blue;
+}
+
+p {
+    background-color: lightblue;
+}
+
+#enlace {
+    color: blueviolet;
+    font-size: 50pt;
+}
+
+* {
+    /*selector universal*/
+    color: rgb(255, 140, 20);
+}

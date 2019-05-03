@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="./js/script.js"></script> <!-- donde va a guardar la data del form -->
+    <title>Formularios</title>
+    
+</head>
+
+<body>
+
+    <form action="./pagina2.html" method="get">
+        <fieldset>
+            <legend>Log-in</legend>
+            <!-- Pagina que recibe el form   -->
+            <!--  2 metodos que recibes POST y GET -->
+            <!--   input:text por default, es una caja de texto o texbox -->
+
+            <label for="txtNombre"> Nombre </label> <!-- lable linkea al textbox con for= -->
+            <input type="text" name="nombre" id="txtNombre" placeholder="cadena de texto provisoria que no perdura">
+            <!-- required = si es campo obligatorio -->
+            <!--name = nombre de la variable-->
+            <!--readonly solo lectura // disable desahbilita claramente // -->
+
+            <label for="txtClave"> <br> Password</label>
+            <input type="password" name="clave" id="txtClave" placeholder="password">
+        </fieldset>
+
+        <fieldset>
+            <legend>Conocimiento</legend>
+            <br>
+            <input type="checkbox" name="css" id="chkCss" checked> <label for="chkCss">css</label>
+            <input type="checkbox" name="css" id="chkHTML"> <label for="chkHTML">html</label>
+            <input type="checkbox" name="css" id="chkJS"> <label for="chkJS">js</label>
+            <br>
+
+            <!--por default va "enviar", envia al campo action  o le podemos poner el value y la palabra-->
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sexo" id="Masc" value="0" checked> <label for="Masc">Masculino</label>
+            <input type="radio" name="sexo" id="Fem" value="1"> <label for="Fem">Femenino</label>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Email</legend>
+            <label for="txtMail" id="Mail">Mail</label>
+            <input type="email" name="email" id="txtMail" required>
+        </fieldset>
+
+        <header>
+            encabezado
+        </header>
+        <nav>
+            link con botones
+        </nav>
+
+        <main>
+            cuerpo del mail
+        </main>
+
+        <section>
+            secciones
+        </section>
+
+        <article>
+            articulos
+        </article>
+
+        <footer>
+            pie de pagina
+        </footer>
+        <aside>
+            laterales
+        </aside>
+
+
+
+
+
+
+
+
+
+        <br>
+        <input type="submit" value="Entrar"> <br><br>
+        <input type="reset">
+
+
+    </form>
+    <div id="info">
+
+    </div>
+</body>
+
+</html>
