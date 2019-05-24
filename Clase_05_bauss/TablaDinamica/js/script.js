@@ -6,10 +6,14 @@ addEventListener('load', function(){
 }, false);
 
 function CargarTabla(){
-    //console.log(personas);
-    let div = document.getElementById('info');
+
+    let div = document.getElementById('infoDiv');
     let tabla = document.createElement('table');
     let header = document.createElement('tr');
+	
+	tabla.setAttribute('width', '500px');
+    tabla.setAttribute('style', 'border-collapse: collapse');
+	tabla.setAttribute('border', '1px solid red');
 
     for (let key in personas[0]) {
         let th = document.createElement('th');
@@ -37,9 +41,9 @@ function CargarTabla(){
 
     div.appendChild(tabla);
 
-    let body = document.getElementsByTagName("body");
+    let body = document.getElementsByTagName('body');
     let btnTabla = document.getElementById("btnTabla");
-    body[0].removeChild(btnTabla);
+//   body[0].removeChild(btnTabla);
 
 }
 
