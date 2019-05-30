@@ -1,0 +1,6 @@
+﻿descargar el Node.js en https://nodejs.org/es/
+
+en git bash dentro de la carpeta de "servidor" de bauss
+ejecutar el comando node server
+
+http://localhost:3000/lista.txt
