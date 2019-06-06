@@ -1,14 +1,23 @@
+body{
+    background-image: url("../imagenes/back_deadpool.png");
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
 * {
     margin: 5px;
     padding: 0px;
-    background-color: black;
     font-family: Tahoma;
     font-size: 15pt;
 }
 
+
+
 header,
 img {
-    background-color:black;
+    background-color:transparent;
     color: cadetblue;
     height: 100px;
     font-family: Tahoma;
