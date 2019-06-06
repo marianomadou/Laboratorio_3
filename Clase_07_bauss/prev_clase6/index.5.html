@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/script.5.js"></script>
+    <title>Clase 6 ajax</title>
+</head>
+<body>
+
+    <form action="#">
+        <fieldset>
+            <legend><strong>Alta Persona</strong></legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="txtNombreAlta">Nombre</label>
+                </td>
+                <td>
+                        <input type="text" id="txtNombreAlta">
+                </td>
+                
+        </tr>
+        <tr>
+                <td>
+                    <label for="txtApellidoAlta">Apellido</label>
+                </td>
+                <td>
+                        <input type="text" id="txtApellidoAlta">
+                </td>
+        </tr>
+        <tr>
+                <td>
+                    <label for="txtEdadAlta">Edad</label>
+                </td>
+                <td>
+                        <input type="text" id="txtEdadAlta">
+                </td>
+        </tr>
+        <tr>
+        <td>
+                <input type="submit" value="agregarPersona">
+        </td>
+        </tr>
+
+        </table>
+    </fieldset>
+    
+<hr></hr>
+
+<fieldset>
+        <legend><strong>Baja Persona</strong></legend>
+    <table>
+        <tr>
+            <td>
+                <label for="txtNombreBaja">Nombre</label>
+            </td>
+            <td>
+                    <input type="text" id="txtNombreBaja">
+            </td>
+            
+    </tr>
+    <tr>
+            <td>
+                <label for="txtApellidoBaja">Apellido</label>
+            </td>
+            <td>
+                    <input type="text" id="txtApellidoBaja">
+            </td>
+    </tr>
+    <tr>
+            <td>
+                <label for="txtEdadBaja">Edad</label>
+            </td>
+            <td>
+                    <input type="text" id="txtEdadBaja">
+            </td>
+    </tr>
+    <tr>
+    <td>
+            <input type="submit" value="Baja Persona">
+    </td>
+    </tr>
+
+    </table>
+</fieldset>
+
+<hr></hr>
+
+<fieldset>
+        <legend><strong>Modificar Persona</strong></legend>
+    <table>
+        <tr>
+            <td>
+                <label for="txtNombreModificar">Nombre</label>
+            </td>
+            <td>
+                    <input type="text" id="txtNombreModificar">
+            </td>
+            
+    </tr>
+    <tr>
+            <td>
+                <label for="txtApellidoModificar">Apellido</label>
+            </td>
+            <td>
+                    <input type="text" id="txtApellidoModificar">
+            </td>
+    </tr>
+    <tr>
+            <td>
+                <label for="txtEdadModificar">Edad</label>
+            </td>
+            <td>
+                    <input type="text" id="txtEdadModificar">
+            </td>
+    </tr>
+    <tr>
+    <td>
+            <input type="submit" value="Modificar Persona">
+    </td>
+    </tr>
+
+    </table>
+</fieldset>
+
+<hr></hr>
+<br><br><br><br>
+    <fieldset>
+            <legend><strong>Persona Agregada</strong></legend>
+        <table>
+                <tr>
+                        <td>
+                            <label for="id">Id</label>
+                        </td>
+                        <td>
+                                <input type="text" id="id">
+                        </td>
+                        <td></td>
+                </tr>
+            
+            <tr>
+                <td>
+                    <label for="txtNombre">Nombre</label>
+                </td>
+                <td>
+                        <input type="text" id="nombre">
+                </td>
+                <td id="spin"></td>
+        </tr>
+        <tr>
+                <td>
+                    <label for="txtApellido">Apellido</label>
+                </td>
+                <td>
+                        <input type="text" id="apellido">
+
+                </td>
+                <td></td>
+        </tr>
+        <tr>
+                <td>
+                    <label for="txtEdad">Edad</label>
+                </td>
+                <td>
+                        <input type="text" id="edad">
+
+                </td>
+                <td></td>
+        </tr>
+        <tr>
+        <td>
+                 </td>
+        </tr>
+
+        </table>
+    </fieldset>
+
+</form>
+
+
+
+
+         
+    <div id="info">
+
+    </div>
+
+    <input type="button" value="Reload Page" onClick="document.location.reload(true)">
+
+</body>
+</html>
